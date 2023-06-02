@@ -31,4 +31,18 @@ export default {
 <style lang="scss">
 @import '@/styles.scss';
 
+.id-home{
+  &__work{
+    padding-top: 80px;
+
+
+    &__card{
+      text-align: center;
+      p{
+        width: 80%;
+        margin: 20px auto 40px;
+      }
+    }
+  }
+}
 </style>
