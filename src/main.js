@@ -5,11 +5,11 @@ import store from './store'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-// test
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+// FONT AWESOME ICONS
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 // add icons to the library
-library.add(faUserSecret)
+library.add(faArrowRight)
 
 
 createApp(App).use(store).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

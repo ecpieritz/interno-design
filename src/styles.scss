@@ -87,6 +87,10 @@ p{
   text-decoration: none;
   font-weight: 500;
 
+  svg{
+    margin-left: 10px;
+  }
+
   &.dark-btn{
     background-color: $id-gray;
     color: $id-white;

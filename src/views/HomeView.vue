@@ -1,16 +1,22 @@
 <template>
   <div class="id-home">
-    <h1>This is an home page</h1>
+    <Banner />
 
-    <font-awesome-icon :icon="['fas', 'user-secret']" />
+    <div class="container">
+      container
+    </div>
   </div>
 </template>
 
 <script>
-
+import Banner from '@/components/home/banner.vue'
 export default {
   name: 'HomeView',
   components: {
+    Banner
   }
 }
 </script>
+
+<style lang="scss">
+</style>
