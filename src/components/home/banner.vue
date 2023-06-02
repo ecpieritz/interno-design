@@ -21,4 +21,28 @@ export default {
 
 <style lang="scss">
 @import '@/styles.scss';
+
+.id-home{
+  &__banner{
+    padding: 40px 0 60px;
+    margin-bottom: 40px;
+    height: 658px;
+
+    background-image: url(@/assets/images/id-home__banner-img.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    &__text{
+      width: 35%;
+      margin-left: 20%;
+      h1{
+        font-size: 85px;
+      }
+      p{
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
 </style>
