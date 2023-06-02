@@ -26,7 +26,7 @@ export default {
   &__banner{
     padding: 40px 0 60px;
     margin-bottom: 40px;
-    height: 658px;
+    height: 90vh;
 
     background-image: url(@/assets/images/id-home__banner-img.png);
     background-repeat: no-repeat;
