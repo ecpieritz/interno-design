@@ -28,6 +28,9 @@
 @import '@/styles.scss';
 
 .id-header{
+  background-color: $id-white;
+  position: sticky;
+  top: 0;
   .container{
     display: flex;
     justify-content: space-between;
@@ -36,6 +39,19 @@
 
   &__logo{
     width: 300px;
+  }
+
+  &__nav{
+    a{
+      text-decoration: none;
+      margin: 0 10px;
+      color: $id-gray;
+      font-size: 20px;
+      &:hover{
+        color: $id-gold;
+
+      }
+    }
   }
 }
 </style>
