@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+
+
+// // // // // // // // // // // 
+// COLORS
+// // // // // // // // // // // 
+$id-gold: #CDA274;
+$id-gold-lg: #dab792;
+$id-gray: #292F36;
+$id-gray-lg: #3d454e;
+$id-light: #F4F0EC;
+$id-white: #ffffff;
+
+// // // // // // // // // // // 
+// DEFAULT STYLES
+// // // // // // // // // // // 
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+body{
+  background-color: $id-white;
+}
+
+.container{
+  max-width: 1340px;
+  margin: auto;
+}
+
+// // // // // // // // // // // 
+// TEXTS SIZES
+// // // // // // // // // // // 
+h1{
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  color: $id-gray;
+}
+
+h2{
+  font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+  color: $id-gray;
+}
+
+h3{
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+  color: $id-gray;
+}
+
+h4{
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  color: $id-gray;
+}
+
+p{
+  font-size: 22px;
+  color: $id-gray;
+}
+
+// // // // // // // // // // // 
+// COLORS
+// // // // // // // // // // // 
+.id-colors{
+  &__text{
+    &__white{
+      color: $id-white;
+    }
+    &__gold{
+      color: $id-gold;
+    }
+  }
+}
+
+// // // // // // // // // // // 
+// BUTTONS
+// // // // // // // // // // // 
+.btn{
+  width: auto;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 500;
+
+  &.dark-btn{
+    background-color: $id-gray;
+    color: $id-white;
+    svg{
+      color: $id-gold !important;
+    }
+    &:hover{
+      background-color: $id-gray-lg;
+      svg{
+        color: $id-gold-lg !important;
+      }
+    }
+  }
+
+  &.gold-btn{
+    background-color: $id-gold;
+    color: $id-white;
+    svg{
+      color: $id-gray;
+    }
+    &:hover{
+      background-color: $id-gold-lg;
+      svg{
+        color: $id-gray-lg;
+      }
+    }
+  }
+}
