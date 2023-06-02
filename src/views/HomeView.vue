@@ -3,17 +3,18 @@
     <Banner />
 
     <div class="container">
-      container
+      <Work />
     </div>
   </div>
 </template>
 
 <script>
 import Banner from '@/components/home/banner.vue'
+import Work from '@/components/home/work.vue'
 export default {
   name: 'HomeView',
   components: {
-    Banner
+    Banner, Work
   }
 }
 </script>
