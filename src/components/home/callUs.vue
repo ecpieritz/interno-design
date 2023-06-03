@@ -32,5 +32,23 @@ export default {
 @import '@/styles.scss';
 
 .id-home{
+  &__call-us{
+    padding-top: 80px;
+    &__text{
+      padding-top: 80px;
+      &__phone{
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0;
+        svg{
+          color: $id-gold;
+          padding: 30px;
+          background-color: $id-light;
+          border-radius: 50%;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
 }
 </style>
