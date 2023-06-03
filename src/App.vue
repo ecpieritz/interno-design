@@ -28,6 +28,7 @@
 .id-header{
   background-color: $id-white;
   position: sticky;
+  z-index: 8;
   top: 0;
   .container{
     display: flex;
