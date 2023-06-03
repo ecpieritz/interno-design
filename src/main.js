@@ -7,9 +7,11 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 // FONT AWESOME ICONS
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 // add icons to the library
 library.add(faArrowRight)
+library.add(faPhone)
 
 
 createApp(App).use(store).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
