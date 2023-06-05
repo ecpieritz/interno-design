@@ -39,6 +39,13 @@ export default {
 .id-home {
   &__clients{
     padding-top: 160px ;
+    .row{
+      justify-content: space-between;
+      align-items: center;
+      img{
+        width: 100%;
+      }
+    }
   }
 }
 </style>
