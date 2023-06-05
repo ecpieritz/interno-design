@@ -32,7 +32,16 @@ export default {
 .id-about {
   &__prices{
     margin-top: 80px;
-    
+    img{
+      width: 100%;
+    }
+    h2{
+      margin-top: 20px;
+    }
+    p{
+      margin: 30px 0 40px;
+      width: 80%;
+    }
   }
 }
 </style>
