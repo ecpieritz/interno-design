@@ -20,5 +20,21 @@ export default {
 
 .id-contact {
     margin-top: 160px ;
+    padding: 80px;
+    background-color: $id-gray;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2,p{
+      color: $id-white;
+      text-align: center;
+    }
+
+    .gold-btn{
+      width: auto;
+      margin-top: 60px;
+    }
 }
 </style>
