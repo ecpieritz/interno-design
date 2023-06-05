@@ -31,6 +31,23 @@ export default {
 
 .id-about {
   &__portfolio{
+    margin-top: 80px;
+    img{
+      width: 100%;
+    }
+    h2{
+      margin-top: 20px;
+      text-align: end;
+    }
+    p{
+      margin: 30px 0 40px;
+      width: 80%;
+      text-align: end;
+      float: right;
+    }
+    a{
+      float: right;
+    }
   }
 }
 </style>
