@@ -7,6 +7,7 @@
       <CallUs />
       <Testimonial />
       <Clients />
+      <Contact />
     </div>
   </div>
 </template>
@@ -17,10 +18,11 @@ import Work from '@/components/home/work.vue'
 import CallUs from '@/components/home/callUs.vue'
 import Testimonial from '@/components/home/testimonial.vue'
 import Clients from '@/components/home/clients.vue'
+import Contact from '@/components/contact.vue'
 export default {
   name: 'HomeView',
   components: {
-    Banner, Work, CallUs, Testimonial, Clients
+    Banner, Work, CallUs, Testimonial, Clients, Contact
   }
 }
 </script>
