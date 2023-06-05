@@ -19,7 +19,7 @@ export default {
 @import '@/styles.scss';
 
 .id-contact {
-    margin-top: 160px ;
+    margin: 160px 0 80px ;
     padding: 80px;
     background-color: $id-gray;
     border-radius: 50px;

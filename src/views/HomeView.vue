@@ -1,5 +1,5 @@
 <template>
-  <div class="id-home">
+  <main class="id-home">
     <Banner />
 
     <div class="container">
@@ -9,7 +9,7 @@
       <Clients />
       <Contact />
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
