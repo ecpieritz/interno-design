@@ -1,0 +1,38 @@
+
+<template>
+  <div class="id-about__prices" id="id-about__prices">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>What We Do</h2>
+        <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
+        <router-link to="/prices" class="btn dark-btn">
+          See Our Prices
+          <font-awesome-icon :icon="['fas', 'arrow-right']" />
+        </router-link>
+      </div>
+
+      <div class="col-md-6">
+        <img src="@/assets/images/id-about__prices.png" alt="">
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'AboutPricesComponent',
+  components: {
+  }
+}
+</script>
+
+<style lang="scss">
+@import '@/styles.scss';
+
+.id-about {
+  &__prices{
+    margin-top: 80px;
+    
+  }
+}
+</style>

@@ -3,16 +3,18 @@
     <Banner />
 
     <div class="container">
+      <Prices />
     </div>
   </main>
 </template>
 
 <script>
 import Banner from '@/components/about/banner.vue'
+import Prices from '@/components/about/prices.vue'
 export default {
   name: 'DefaultBannerView',
   components: {
-    Banner
+    Banner, Prices
   }
 }
 </script>
