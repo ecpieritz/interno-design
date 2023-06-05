@@ -5,6 +5,7 @@
     <div class="container">
       <Work />
       <CallUs />
+      <Testimonial />
     </div>
   </div>
 </template>
@@ -13,10 +14,11 @@
 import Banner from '@/components/home/banner.vue'
 import Work from '@/components/home/work.vue'
 import CallUs from '@/components/home/callUs.vue'
+import Testimonial from '@/components/home/testimonial.vue'
 export default {
   name: 'HomeView',
   components: {
-    Banner, Work, CallUs
+    Banner, Work, CallUs, Testimonial
   }
 }
 </script>
