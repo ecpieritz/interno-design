@@ -63,5 +63,44 @@ export default {
 @import '@/styles.scss';
 
 .id-home {
+  &__testimonial {
+    margin-top: 80px;
+    padding: 80px;
+    border-radius: 20px;
+    background-color: $id-light;
+
+    h2{
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    &__person{
+      &__bg{
+        background-color: $id-white;
+        border-radius: 20px;
+        padding: 40px 20px 20px;
+        height: 100%;
+
+      }
+      .row{
+        align-items: center;
+      }
+      img{
+        width: 100%;
+        border-radius: 12px;
+      }
+      h4{
+        font-family: 'Jost', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+      h5{
+        font-weight: 400;
+      }
+      p{
+        margin: 20px 0 0;
+      }
+    }
+  }
 }
 </style>
