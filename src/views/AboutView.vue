@@ -1,5 +1,21 @@
 <template>
-  <div class="id-about">
-    <h1>This is an about page</h1>
-  </div>
+  <main class="id-about">
+    <Banner />
+
+    <div class="container">
+    </div>
+  </main>
 </template>
+
+<script>
+import Banner from '@/components/about/banner.vue'
+export default {
+  name: 'DefaultBannerView',
+  components: {
+    Banner
+  }
+}
+</script>
+
+<style lang="scss">
+</style>

@@ -28,5 +28,22 @@ export default {
 @import '@/styles.scss';
 
 .id-footer {
+    .row{
+      padding: 30px 0;
+      align-items: center;
+      h4{
+        text-align: center;
+      }
+
+      img{
+        width: 250px;
+      }
+
+    }
+    &__socials{
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+    }
 }
 </style>
