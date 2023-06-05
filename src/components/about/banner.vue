@@ -25,5 +25,27 @@ export default {
 @import '@/styles.scss';
 
 .id-banner {
+  &__img{
+    width: 100%;
+  }
+
+  &__text{
+    margin-top: 60px;
+    width: auto;
+    text-align: center;
+    z-index: 2;
+    
+    &__breadcrumb{
+      text-align: left;
+
+      a{
+        color: $id-gray;
+        &:hover{
+          text-decoration: none;
+          color: $id-gold;
+        }
+      }
+    }
+  }
 }
 </style>
