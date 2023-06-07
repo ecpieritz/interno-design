@@ -101,5 +101,61 @@ export default {
 .id-prices {
   &__plans {
     margin: 80px 0;
+    
+    &__item{
+      .bg{
+        text-align: center;
+        padding: 40px 20px;
+  
+        background-color: $id-light;
+        border-radius: 16px;
+        height: 100%;
+        width: 95%;
+        margin: auto;
+
+      }
+
+      &__top{
+        .row{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          h1{
+            font-size: 60px;
+          }
+        }
+      }
+
+      hr{
+        margin: 40px 0;
+      }
+
+      &__bottom{
+        p{
+          margin: 0 auto 10px;
+        }
+        
+        a{
+          margin-top: 40px;
+
+        }
+      }
+
+      &__most-popular{
+        position: relative;
+        margin: -70px auto 15px;
+        width: fit-content;
+        background-color: $id-gray;
+        color: $id-white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        p{
+          color: $id-white;
+          margin: 0;
+        }
+      }
+    }
   }
 }</style>
