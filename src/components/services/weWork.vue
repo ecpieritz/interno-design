@@ -84,5 +84,56 @@ export default {
   &__work {
     margin: 80px 0;
 
+    .container {
+      background-color: $id-light;
+      border-radius: 20px;
+      padding: 80px 60px;
+
+    }
+
+    &__item {
+      margin-bottom: 80px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      
+      &__img {
+        width: 100%;
+      }
+
+      &__numb{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        img{
+          height: 80px;
+        }
+
+        h2{
+          color: $id-white;
+          font-size: 120px;
+        }
+      }
+      h3{
+        margin: 20px 0 40px;
+      }
+      p{
+        width: 75%;
+      }
+
+      &.reverse-row{
+        flex-direction: row-reverse;
+
+        h3{
+          text-align: end;
+        }
+
+        p{
+          text-align: end;
+          float: right;
+        }
+      }
+    }
   }
 }</style>
