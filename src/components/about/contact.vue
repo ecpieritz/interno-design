@@ -3,7 +3,7 @@
   <div class="id-about__contact" id="id-about__contact">
     <h2>Creative project? Let's have a productive talk.</h2>
 
-    <form>
+    <form class="id-about__contact__form">
       <div class="form-row">
         <div class="col-md-6 mb-3">
           <label for="aboutNameValidation">Your name</label>
@@ -39,7 +39,22 @@ export default {
 
 .id-about {
   &__contact{
-    margin: 80px 0;
+    margin: 80px 0 160px ;
+
+    h2{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    &__form{
+      width: 70%;
+      margin: auto;
+
+      .dark-btn{
+        float:right;
+        margin: 40px 0;
+      }
+    }
   }
 }
 </style>
