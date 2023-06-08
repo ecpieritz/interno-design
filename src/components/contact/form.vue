@@ -1,48 +1,20 @@
 
 <template>
-  <div class="id-team__cards" id="id-team__cards">
+  <div class="id-contact__form" id="id-contact__form">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__01.jpg" alt="">
-          <h3>Isabella Silva</h3>
-          <p>CEO | Pará/Brazil</p>
+        <div class="col-md-4 id-contact__form__contacts">
+          <div class="item"><font-awesome-icon :icon="['fas', 'envelope']" /> info@internodesign.com</div>
+          <div class="item"><font-awesome-icon :icon="['fab', 'whatsapp']" /> +55 11 98765-4321</div>
+          <div class="item"><font-awesome-icon :icon="['fas', 'globe']" /> www.yoursite.com</div>
+          <div class="links">
+            <a class="btn img-btn gold" href="https://www.linkedin.com/in/ecpieritz/" target="_blank"
+              rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'linkedin']" /></a>
+            <a class="btn img-btn gold" href="https://github.com/ecpieritz" target="_blank"
+              rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'github']" /></a>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__02.jpg" alt="">
-          <h3>Sophia Santos</h3>
-          <p>CEO | São Paulo/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__03.jpg" alt="">
-          <h3>Manuela Oliveira</h3>
-          <p>Designer | Minas Gerais/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__04.jpg" alt="">
-          <h3>Laura Pereira</h3>
-          <p>Designer | Rio de Janeiro/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__05.jpg" alt="">
-          <h3>Valentina Watanabe</h3>
-          <p>Marketing | São Paulo/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__06.jpg" alt="">
-          <h3>Helena Rodrigues</h3>
-          <p>Architect | Paraná/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__07.jpg" alt="">
-          <h3>Gabriela Carvalho</h3>
-          <p>Architect | Fortaleza/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__08.jpg" alt="">
-          <h3>Beatriz Almeida</h3>
-          <p>Architect | Mato Grosso/Brazil</p>
-        </div>
+        <div class="col-md-8"></div>
       </div>
     </div>
   </div>
@@ -50,7 +22,7 @@
 
 <script>
 export default {
-  name: 'TeamCardsComponent',
+  name: 'ContactFormComponent',
   components: {
   }
 }
@@ -59,21 +31,39 @@ export default {
 <style lang="scss">
 @import '@/styles.scss';
 
-.id-team {
-  &__cards {
+.id-contact {
+  &__form {
     margin: 80px 0;
 
-    img{
-      width: 100%;
-      border-radius: 16px;
-      margin-top: 30px;
-    }
-    h3{
-      margin: 20px 0 0;
-    }
-    
-    p{
-      font-size: 18px;
+    &__contacts{
+      background-color: $id-light;
+      border-radius: 20px;
+      padding: 60px 40px;
+      .item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 20px;
+        svg{
+          color: $id-gold;
+          width: 35px;
+          height: 35px;
+          margin-right: 20px;
+        }
+      }
+      .links{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        .btn{
+          svg{
+            margin-left: 0;
+          }
+          &:last-child{
+            margin-left: 30px;
+          }
+        }
+      }
     }
   }
 }
