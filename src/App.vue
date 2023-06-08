@@ -63,5 +63,11 @@ export default {
       }
     }
   }
+
+  @media (max-width: 780px){
+    .container{
+      flex-direction: column;
+    }
+  }
 }
 </style>
