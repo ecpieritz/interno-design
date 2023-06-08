@@ -54,7 +54,13 @@ export default {
         float:right;
         margin: 40px 0;
       }
+
+      @media (max-width: 780px){
+        width: 90%;
+      }
     }
+
+
   }
 }
 </style>

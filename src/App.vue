@@ -61,6 +61,10 @@ export default {
         color: $id-gold;
 
       }
+
+      @media (max-width: 780px){
+        font-size: 16px;
+      }
     }
   }
 
