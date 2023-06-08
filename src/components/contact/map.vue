@@ -1,56 +1,15 @@
 
 <template>
-  <div class="id-team__cards" id="id-team__cards">
+  <div class="id-contact__map" id="id-contact__map">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__01.jpg" alt="">
-          <h3>Isabella Silva</h3>
-          <p>CEO | Pará/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__02.jpg" alt="">
-          <h3>Sophia Santos</h3>
-          <p>CEO | São Paulo/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__03.jpg" alt="">
-          <h3>Manuela Oliveira</h3>
-          <p>Designer | Minas Gerais/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__04.jpg" alt="">
-          <h3>Laura Pereira</h3>
-          <p>Designer | Rio de Janeiro/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__05.jpg" alt="">
-          <h3>Valentina Watanabe</h3>
-          <p>Marketing | São Paulo/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__06.jpg" alt="">
-          <h3>Helena Rodrigues</h3>
-          <p>Architect | Paraná/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__07.jpg" alt="">
-          <h3>Gabriela Carvalho</h3>
-          <p>Architect | Fortaleza/Brazil</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <img src="@/assets/images/id-team__08.jpg" alt="">
-          <h3>Beatriz Almeida</h3>
-          <p>Architect | Mato Grosso/Brazil</p>
-        </div>
-      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8698.535130846873!2d-46.639353637663774!3d-23.558259270702756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59af4b308c59%3A0xea89ed27441be1ef!2sAv.%20da%20Liberdade%20-%20Liberdade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2012240-550!5e0!3m2!1spt-BR!2sbr!4v1686245552603!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0; border-radius: 20px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TeamCardsComponent',
+  name: 'ContactMapComponent',
   components: {
   }
 }
@@ -59,22 +18,9 @@ export default {
 <style lang="scss">
 @import '@/styles.scss';
 
-.id-team {
-  &__cards {
+.id-contact {
+  &__map {
     margin: 80px 0;
-
-    img{
-      width: 100%;
-      border-radius: 16px;
-      margin-top: 30px;
-    }
-    h3{
-      margin: 20px 0 0;
-    }
-    
-    p{
-      font-size: 18px;
-    }
   }
 }
 </style>
