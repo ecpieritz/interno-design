@@ -3,7 +3,7 @@
   <div class="id-home__testimonial container" id="id-home__testimonial">
     <h2>What the People Thinks About Us</h2>
     <div class="row">
-      <div class="col-md-4 id-home__testimonial__person">
+      <div class="col-lg-4 id-home__testimonial__person">
         <div class="id-home__testimonial__person__bg">
           <div class="row">
             <div class="col-3">
@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 id-home__testimonial__person">
+      <div class="col-lg-4 id-home__testimonial__person">
         <div class="id-home__testimonial__person__bg">
           <div class="row">
             <div class="col-3">
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 id-home__testimonial__person">
+      <div class="col-lg-4 id-home__testimonial__person">
         <div class="id-home__testimonial__person__bg">
           <div class="row">
             <div class="col-3">
@@ -81,6 +81,9 @@ export default {
         padding: 40px 20px 20px;
         height: 100%;
 
+        @media (max-width: 460px){
+          padding: 20px;
+        }
       }
       .row{
         align-items: center;
@@ -100,6 +103,17 @@ export default {
       p{
         margin: 20px 0 0;
       }
+      @media (max-width: 780px){
+        margin-bottom: 40px;
+        &:last-child{
+          margin-bottom: 0;
+
+        }
+      }
+    }
+
+    @media (max-width: 460px){
+      padding: 40px 20px;
     }
   }
 }

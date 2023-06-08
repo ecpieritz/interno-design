@@ -46,6 +46,10 @@ export default {
         width: 100%;
       }
     }
+    
+    @media (max-width: 460px){
+        display: none;
+    }
   }
 }
 </style>

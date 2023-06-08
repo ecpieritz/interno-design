@@ -2,7 +2,7 @@
 <template>
   <div class="id-home__call-us container" id="id-home__call-us">
     <div class="row">
-      <div class="col-md-5 id-home__call-us__text">
+      <div class="col-lg-5 col-md-6 id-home__call-us__text">
         <h2>We Create The Art Of Stylish Living Stylishly</h2>
         <p>It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using that it has a more-or-less normal.</p>
 
@@ -13,7 +13,7 @@
         <router-link to="/contact" class="btn dark-btn">Get Free Estimate <font-awesome-icon :icon="['fas', 'arrow-right']" /></router-link>
       </div>
 
-      <div class="col-md-7 id-home__call-us__img">
+      <div class="col-lg-7 col-md-6 id-home__call-us__img">
         <img src="@/assets/images/id-home__call-us.png" alt="">
       </div>
     </div>
@@ -48,6 +48,25 @@ export default {
           margin-right: 20px;
         }
       }
+      @media (max-width: 780px){
+        padding-top: 20px;
+      }
+    }
+
+    &__img{
+      @media (max-width: 780px){
+        img{
+          width: 100%;
+        }
+      }
+      @media (max-width: 460px){
+        img{
+          display: none;
+        }
+      }
+    }
+    @media (max-width: 780px){
+      padding-bottom: 80px;
     }
   }
 }

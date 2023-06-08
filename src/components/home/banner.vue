@@ -42,7 +42,23 @@ export default {
       p{
         margin-bottom: 60px;
       }
+      @media (max-width: 780px){
+        width: 50%;
+        margin-left: 30px;
+        h1{
+          font-size: 60px;
+        }
+      }
+      @media (max-width: 460px){
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        h1{
+          margin-top: 60px;
+        }
+      }
     }
+
   }
 }
 </style>

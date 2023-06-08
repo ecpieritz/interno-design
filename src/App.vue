@@ -65,6 +65,7 @@ export default {
   }
 
   @media (max-width: 780px){
+    width: 100%;
     .container{
       flex-direction: column;
     }
