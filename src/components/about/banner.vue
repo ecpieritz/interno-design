@@ -7,7 +7,7 @@
       <h1>About Us</h1>
 
       <div class="id-banner__text__breadcrumb container">
-        <router-link to="/">Home</router-link> / <router-link to="/about">About</router-link>
+        <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link>
       </div>
     </div>
   </div>

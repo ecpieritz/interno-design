@@ -7,7 +7,7 @@
       <h1>Prices & Plan</h1>
 
       <div class="id-banner__text__breadcrumb container">
-        <router-link to="/">Home</router-link> / <router-link to="/prices">Prices</router-link>
+        <router-link to="/">Home</router-link> | <router-link to="/prices">Prices</router-link>
       </div>
     </div>
   </div>

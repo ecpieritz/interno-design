@@ -7,7 +7,7 @@
       <h1>Services</h1>
 
       <div class="id-banner__text__breadcrumb container">
-        <router-link to="/">Home</router-link> / <router-link to="/services">Services</router-link>
+        <router-link to="/">Home</router-link> | <router-link to="/services">Services</router-link>
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@
       <h1>Our Professionals</h1>
 
       <div class="id-banner__text__breadcrumb container">
-        <router-link to="/">Home</router-link> / <router-link to="/team">Team</router-link>
+        <router-link to="/">Home</router-link> | <router-link to="/team">Team</router-link>
       </div>
     </div>
   </div>
