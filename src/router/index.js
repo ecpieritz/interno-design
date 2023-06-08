@@ -3,7 +3,6 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import PricesView from '../views/PricesView.vue'
-import ProjectsView from '../views/ProjectsView.vue'
 import TeamView from '../views/TeamView.vue'
 import ContactView from '../views/ContactView.vue'
 
@@ -27,11 +26,6 @@ const routes = [
     path: '/prices',
     name: 'prices',
     component: PricesView
-  },
-  {
-    path: '/projects',
-    name: 'projects',
-    component: ProjectsView
   },
   {
     path: '/team',

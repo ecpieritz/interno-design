@@ -9,7 +9,6 @@
         <router-link to="/about">About</router-link>
         <router-link to="/services">Services</router-link>
         <router-link to="/prices">Prices</router-link>
-        <router-link to="/projects">Projects</router-link>
         <router-link to="/team">Team</router-link>
         <router-link to="/contact">Contact</router-link>
       </nav>
