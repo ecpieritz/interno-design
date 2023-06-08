@@ -16,12 +16,12 @@
         <div class="col-lg-3 col-md-6">
           <img src="@/assets/images/id-team__03.jpg" alt="">
           <h3>Manuela Oliveira</h3>
-          <p>UI/UX Designer | Minas Gerais/Brazil</p>
+          <p>Designer | Minas Gerais/Brazil</p>
         </div>
         <div class="col-lg-3 col-md-6">
           <img src="@/assets/images/id-team__04.jpg" alt="">
           <h3>Laura Pereira</h3>
-          <p>UI/UX Designer | Rio de Janeiro/Brazil</p>
+          <p>Designer | Rio de Janeiro/Brazil</p>
         </div>
         <div class="col-lg-3 col-md-6">
           <img src="@/assets/images/id-team__05.jpg" alt="">
@@ -31,17 +31,17 @@
         <div class="col-lg-3 col-md-6">
           <img src="@/assets/images/id-team__06.jpg" alt="">
           <h3>Helena Rodrigues</h3>
-          <p>Back-end Dev | Paraná/Brazil</p>
+          <p>Architect | Paraná/Brazil</p>
         </div>
         <div class="col-lg-3 col-md-6">
           <img src="@/assets/images/id-team__07.jpg" alt="">
           <h3>Gabriela Carvalho</h3>
-          <p>Front-end Dev | Fortaleza/Brazil</p>
+          <p>Architect | Fortaleza/Brazil</p>
         </div>
         <div class="col-lg-3 col-md-6">
           <img src="@/assets/images/id-team__08.jpg" alt="">
           <h3>Beatriz Almeida</h3>
-          <p>Front-end Dev | Mato Grosso/Brazil</p>
+          <p>Architect | Mato Grosso/Brazil</p>
         </div>
       </div>
     </div>
@@ -63,6 +63,18 @@ export default {
   &__cards {
     margin: 80px 0;
 
+    img{
+      width: 100%;
+      border-radius: 16px;
+      margin-top: 30px;
+    }
+    h3{
+      margin: 20px 0 0;
+    }
+    
+    p{
+      font-size: 18px;
+    }
   }
 }
 </style>
