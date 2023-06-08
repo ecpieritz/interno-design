@@ -3,7 +3,7 @@
   <div class="id-prices__plans" id="id-prices__plans">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 id-prices__plans__item">
+        <div class="col-lg-4 id-prices__plans__item">
           <div class="bg">
             <div class="id-prices__plans__item__top">
               <h3>Design advices</h3>
@@ -28,7 +28,7 @@
 
         </div>
         
-        <div class="col-md-4 id-prices__plans__item">
+        <div class="col-lg-4 id-prices__plans__item">
           <div class="bg">
             <div class="id-prices__plans__item__top">
               <h3>Complete interior</h3>
@@ -57,7 +57,7 @@
 
         </div>
 
-        <div class="col-md-4 id-prices__plans__item">
+        <div class="col-lg-4 id-prices__plans__item">
           <div class="bg">
             <div class="id-prices__plans__item__top">
               <h3>Furniture design</h3>
@@ -154,6 +154,14 @@ export default {
         p{
           color: $id-white;
           margin: 0;
+        }
+      }
+
+      @media (max-width: 780px){
+        margin-bottom: 30px;
+
+        &:last-child{
+          margin-bottom: 0;
         }
       }
     }
