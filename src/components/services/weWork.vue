@@ -93,12 +93,17 @@ export default {
 
     &__item {
       margin-bottom: 80px;
+      
       &:last-child{
         margin-bottom: 0;
       }
       
       &__img {
         width: 100%;
+
+        @media (max-width: 460px){
+          display: none;
+        }
       }
 
       &__numb{
@@ -132,6 +137,23 @@ export default {
         p{
           text-align: end;
           float: right;
+        }
+
+        @media (max-width: 460px){
+          h3,p{
+            text-align: left;
+            float: left;
+          }
+        }
+      }
+      @media (max-width: 460px){
+        margin-bottom: 20px;
+        p{
+          width: 100%;
+        }
+
+        h3{
+          margin: 10px 0 20px;
         }
       }
     }
