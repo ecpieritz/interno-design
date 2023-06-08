@@ -14,7 +14,29 @@
               rel="noopener noreferrer"><font-awesome-icon :icon="['fab', 'github']" /></a>
           </div>
         </div>
-        <div class="col-md-8"></div>
+
+        <div class="col-md-8">
+          <form class="id-contact__form__form">
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="aboutNameValidation">Your name</label>
+                <input type="text" class="form-control" id="aboutNameValidation" value="Text your name here" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="aboutEmailValidation">Your E-mail</label>
+                <input type="email" class="form-control" id="aboutEmailValidation" value="your@mail.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="aboutMessageValidation">What are you interested in?</label>
+              <textarea class="form-control" id="aboutMessageValidation" rows="5"></textarea>
+            </div>
+            <button class="btn dark-btn" type="submit">
+              Send Now
+              <font-awesome-icon :icon="['fas', 'arrow-right']" />
+            </button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -35,36 +57,50 @@ export default {
   &__form {
     margin: 80px 0;
 
-    &__contacts{
+    &__contacts {
       background-color: $id-light;
       border-radius: 20px;
       padding: 60px 40px;
-      .item{
+
+      .item {
         display: flex;
         align-items: center;
         margin-bottom: 15px;
         font-size: 20px;
-        svg{
+
+        svg {
           color: $id-gold;
           width: 35px;
           height: 35px;
           margin-right: 20px;
         }
       }
-      .links{
+
+      .links {
         margin-top: 40px;
         display: flex;
         justify-content: center;
-        .btn{
-          svg{
+
+        .btn {
+          svg {
             margin-left: 0;
           }
-          &:last-child{
+
+          &:last-child {
             margin-left: 30px;
           }
         }
       }
     }
+
+    &__form{
+      width: 90%;
+      margin: 50px auto 0;
+
+      .dark-btn{
+        float:right;
+        margin: 40px 0;
+      }
+    }
   }
-}
-</style>
+}</style>
