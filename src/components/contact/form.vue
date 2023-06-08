@@ -3,7 +3,7 @@
   <div class="id-contact__form" id="id-contact__form">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 id-contact__form__contacts">
+        <div class="col-lg-4 id-contact__form__contacts">
           <div class="item"><font-awesome-icon :icon="['fas', 'envelope']" /> info@internodesign.com</div>
           <div class="item"><font-awesome-icon :icon="['fab', 'whatsapp']" /> +55 11 98765-4321</div>
           <div class="item"><font-awesome-icon :icon="['fas', 'globe']" /> www.yoursite.com</div>
@@ -15,7 +15,7 @@
           </div>
         </div>
 
-        <div class="col-md-8">
+        <div class="col-lg-8">
           <form class="id-contact__form__form">
             <div class="form-row">
               <div class="col-md-6 mb-3">
@@ -90,6 +90,11 @@ export default {
             margin-left: 30px;
           }
         }
+      }
+
+      @media (max-width: 780px){
+        width: auto;
+        margin: auto;
       }
     }
 
